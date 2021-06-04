@@ -18,6 +18,10 @@
             padding: 0 30px;
             transition: all .2s;
 
+            span{
+                padding-left: 16px;    
+            }
+
             &.active {
                 color: #00b4cf;
                 background-color: #435466;
