@@ -1,0 +1,27 @@
+.header{
+    height: 70px;
+    background-color: #fff;
+    .main{
+        height: 100%;
+        position: relative;
+    }
+    .header-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        img{
+            max-height: 40px;
+        }
+    }
+    .user-avatar{
+        position: absolute;
+        right: 70px;
+        top: 50%;
+        transform: translateY(-50%);
+        img{
+            width: 40px;
+            border-radius: 50%;
+        }
+    }
+}
